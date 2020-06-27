@@ -42,6 +42,16 @@ p{
     line-height: 1.1;
 }
 
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+   }
+   
+   .text-center{
+       text-align: center;
+   }
+
 .lead{
    font-size: 1.3rem; 
    margin-bottom: 2rem;
@@ -65,6 +75,27 @@ p{
     color: fff;
 }
 
+
+.container{
+    max-width: 1100px;
+    margin: auto ;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+
+.py-1{  padding: 1.5rem 0;}
+.py-2{  padding: 2rem 0;}
+.py-3{  padding: 3rem 0;}
+
+.py-1{  padding: 1.5rem 0;}
+.py-1{  padding: 1.5rem 0;}
+.py-1{  padding: 1.5rem 0;}
+
+
+
+
+
 /* navbar css */
 
 #navbar{
@@ -78,9 +109,22 @@ p{
     padding: 1rem;
 }
 
-#navbar h1{
+#navbar h1,
+.letra-padrao
+{
     font-family: var(--letra1);
 }
+
+.letra-padrao
+{
+    font-family: var(--letra1);
+    font-weight: bold;
+}
+
+.logo-a{
+    color: #fff;
+}
+
 #navbar ul{
     display: flex;
     align-items: center;
@@ -118,16 +162,38 @@ p{
     align-items: center;
 
     height: 100%;
-    width: 100%;
+    /*width: 100%;*/
     
     padding: 0 2rem;
     /* overlay */
     position:absolute;
     top: 60px;
     left: 0;
+    right: 0;
+    bottom: 0;
     background-color: rgba(0, 0,0, 0.4);
 
     
 }
 
+
+/*section what we do*/
+
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item {
+flex: 1;
+text-align: center;
+padding: 1rem;
+}
+
+#what .items .item i{
+    background: var(--cor1);
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
 
